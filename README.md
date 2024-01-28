@@ -26,11 +26,11 @@ our proposed negative sample augmentation strategies can be directly applied to 
 <img src="./datas/pipeline.png" width=50%>
 
 ### Overview
-<img src="./datas/overview.png" width=100%>
+<img src="./datas/overview.jpg" width=100%>
 
 ### Visual
 
-<img src="./datas/visual.png" width=100%>
+<img src="./datas/framework.jpg" width=100%>
 
 ## Dependencies and Installation
 - Following [RealBasicVSR](https://github.com/ckkelvinchan/RealBasicVSR)
