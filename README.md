@@ -53,8 +53,15 @@ Download the dataset download dir models [[Baidu Drive](https://pan.baidu.com/s/
 **Noise Sampling**
 
 ```bash
-# Run Noise Sampling.py directly
-python codes/Noise Sampling/Noise Sampling.py
+# Run Noise_Sampling.py directly
+python codes/Noise_Sampling/Noise Sampling.py
+```
+
+**Noise  displacement**
+
+```bash
+# Run Noise_add.py directly
+python codes/Noise_Sampling/Noise Sampling.py
 ```
 
 **Negative augmentation**
