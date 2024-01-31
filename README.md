@@ -60,18 +60,21 @@ python codes/Noise_Sampling/Noise Sampling.py
 **Noise  displacement**
 
 ```bash
-# Run Noise_add.py directly
-python codes/Noise_Sampling/Noise Sampling.py
+# Run add_noise.py directly
+python codes/Mix_Rot/add_noise.py
 ```
 
 **Negative augmentation**
 
 ```bash
-# Run rot_p.py directly
-python codes/rot_PM/rot_p.py
+# Run rot_patch.py directly
+python codes/Mix_Rot/rot_patch.py
+```
+```bash
+# Run rot_mask.py directly
+python codes/Mix_Rot/rot_mask.py
 ```
 
-We have migrated the negative augmentation code to [basicvsr_net.py](codes/basicvsr_net.py).
 
 ## **Image Quality Assessment**
 
