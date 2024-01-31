@@ -9,10 +9,10 @@
   - [Overview](#overview)
   - [Visual](#visual)
 - [Dependencies and Installation](#dependencies-and-installation)
-- [Quick Inference](#quick-inference)
+- [Dataset](#dataset )
 - [Codes Demos](#codes-demos)
-- [Usage](#Usage)
-- [Quantative Results ](#QuantativeResults)
+- [Usage](#usage)
+- [Quantative Results ](#quantative-results)
 - [Acknowledgement](#acknowledgement)
 
 
@@ -44,9 +44,9 @@ our proposed negative sample augmentation strategies can be directly applied to 
 
 
 
-## Quick Inference
+## Dataset 
 
-Download the dataset download dir models [[Baidu Drive](https://pan.baidu.com/s/1WV1ytntgvxaBqetYIuBAYw ) (code:1234). Currently, the available dataset are:
+Download the dataset download dir models {[[Baidu Drive]](https://pan.baidu.com/s/1WV1ytntgvxaBqetYIuBAYw ) (code:1234). Currently, the available dataset are:
 
 - `SIRST-5K`: The dataset synthesized using negatives generation strategies (Fig 2).
 - `NUDT-SIRST`:An open-sourced dataset with rich targets.  
