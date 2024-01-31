@@ -21,7 +21,7 @@
 
 We propose a method based on real-world noise modeling and transfer. By extracting the unique noise distribution of infrared sensors, our model adds different types of noise to the original data to generate new samples, ensuring theauthenticity and diversity of the synthesised data. Without requiring additional manual labeling, our model generates challenging massive samples through the use of negative sample augmentation strategies. Utilizing the Synthetic SIRST-5K dataset significantly improves the performance and convergence speed of infrared small target detection models. Furthermore,
 our proposed negative sample augmentation strategies can be directly applied to most existing infrared small target detectors, demonstrating strong versatility.
-
+<img src="./datas/5k.jpg" width=100%>
 <img src="./datas/SIRST-5k.jpg" width=80%>
 
 ### Overview
