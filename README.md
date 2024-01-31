@@ -18,11 +18,12 @@
 
 
 ## Introduction
+<img src="./datas/5k.jpg" width=100%>
 
 ### Overview
 <img src="./datas/framework.jpg" width=100%>
 
-<img src="./datas/5k.jpg" width=100%>
+
 
 ### Visual
 <img src="./datas/Quantitative result1 .jpg" width=100%>
@@ -98,7 +99,7 @@ python visulization.py --base_size 256 --crop_size 256 --st_model [trained model
 | ------------- |:-------------:|:-----:|:-----:|:-----:| 
 |  Ours | 92.78|98.84  |2.735 |[[Weights]]() |
 
-<img src="./datas/Quantative -results.jpg" width=100%>
+
 
 
 
