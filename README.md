@@ -34,13 +34,13 @@
 - pip install tqdm
 - pip install matplotlib
 - pip install tensorboard==2.14.0
-- Pip install opencv-python==4.8.0.76
+- pip install opencv-python==4.8.0.76
 
 
 
 ## Dataset 
 
-Download the dataset download dir models[[Baidu Drive] (https://pan.baidu.com/s/1aUOs_mf2pGvx_sFOAJBghQ?pwd=1234)] (code:1234). Currently, the available dataset are:
+Download the dataset download dir models[[Baidu Drive](https://pan.baidu.com/s/1aUOs_mf2pGvx_sFOAJBghQ?pwd=1234)]. Currently, the available dataset are:
 - `SIRST-5K`: The dataset synthesized using negatives generation strategies (Fig 2).
 
 
@@ -50,7 +50,7 @@ Download the dataset download dir models[[Baidu Drive] (https://pan.baidu.com/s/
 
 ```bash
 # Run Noise_Sampling.py directly
-python codes/Noise_Sampling/Noise Sampling.py
+python codes/Noise_Sampling/Noise_Sampling.py
 ```
 
 **Noise  displacement**
@@ -92,11 +92,9 @@ python visulization.py --base_size 256 --crop_size 256 --st_model [trained model
 
 ## Quantative Results 
 
-| Dataset    | mIoU (x10(-2)) | Pd (x10(-6))|  Fa (x10(-6)) |code:1234|
+| Model    | mIoU (x10(-2)) | Pd (x10(-6))|  Fa (x10(-6)) ||
 | ------------- |:-------------:|:-----:|:-----:|:-----:| 
-|  SIRST-5K | 93.10|99.15  |5.15 ||
-|  NUDT-SIRST | 86.87 | 97.98 | 3.71| [[Weights]](https://pan.baidu.com/s/1xeV4IPpmJCYzzwMmWrzeYQ) |
-|  NUDT-SIRST model | 92.78|98.84  |2.735 ||
+|  Ours | 92.78|98.84  |2.735 |[[Weights]]() |
 
 <img src="./datas/Quantative -results.jpg" width=100%>
 
