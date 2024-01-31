@@ -97,7 +97,7 @@ python visulization.py --base_size 256 --crop_size 256 --st_model [trained model
 
 | Model    | mIoU (x10(-2)) | Pd (x10(-6))|  Fa (x10(-6)) ||
 | ------------- |:-------------:|:-----:|:-----:|:-----:| 
-|  Ours | 92.78|98.84  |2.735 |[[Weights]]() |
+|  Ours | 92.78|98.84  |2.735 |[[Weights]](https://pan.baidu.com/s/17g6g_elfDoEBKi9sHjBfJA?pwd=1234) |
 
 
 
