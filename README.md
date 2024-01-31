@@ -84,7 +84,7 @@ python codes/Mix_Rot/rot_mask.py
 #### 1. Train.
 
 ```bash
-python train.py --base_size 256 --crop_size 256 --epochs 1500 --dataset [dataset-name] --split_method 50_50 --model [model name]   --deep_supervision True --train_batch_size 16 --test_batch_size 16 --mode TXT
+python train.py --base_size 256 --crop_size 256 --epochs 1500 --dataset [dataset-name] --split_method 50_50  --deep_supervision True --train_batch_size 16 --test_batch_size 16 --mode TXT
 
 ```
 #### 2. Test.
