@@ -46,7 +46,7 @@ our proposed negative sample augmentation strategies can be directly applied to 
 
 ## Quick Inference
 
-Download the dataset download dir models [[Baidu Drive](https://pan.baidu.com/s/1cb-l62cusv8anPwvtfvR7Q )] (code:1234), and put them into the [weights](weights/) folder. Currently, the available dataset are:
+Download the dataset download dir models [[Baidu Drive](https://pan.baidu.com/s/1WV1ytntgvxaBqetYIuBAYw ) (code:1234). Currently, the available dataset are:
 
 - `SIRST-5K`: The dataset synthesized using negatives generation strategies (Fig 2).
 - `NUDT-SIRST`:An open-sourced dataset with rich targets.  
@@ -103,9 +103,9 @@ python visulization.py --base_size 256 --crop_size 256 --st_model [trained model
 
 | dataset    | mIoU (x10(-2)) | Pd (x10(-2))|  Fa (x10(-6)) ||
 | ------------- |:-------------:|:-----:|:-----:|:-----:|
-|  NUDT-SIRST | 86.87 | 97.98 | 3.71|[[Weights]](https://drive.google.com/file/d/1NDvjOiWecfWNPaO12KeIgiJMTKSFS6wj/view?usp=sharing) |
-| 3_NUDT-SIRST0.1 | 92.78 | 98.84 | 2.74 |[[Weights]](https://drive.google.com/file/d/1NDvjOiWecfWNPaO12KeIgiJMTKSFS6wj/view?usp=sharing) |
-| SIRST-5k | 88.61 | 98.42 | 4.30 | [[Weights]](https://drive.google.com/file/d/1NDvjOiWecfWNPaO12KeIgiJMTKSFS6wj/view?usp=sharing) |
+|  NUDT-SIRST | 86.87 | 97.98 | 3.71|
+| NUDT-SIRST0.1_3 | 92.78 | 98.84 | 2.74 |
+| SIRST-5k | 88.61 | 98.42 | 4.30 | [[Weights]](https://pan.baidu.com/s/1TIrVKAIkv1pZ5JQNYWOE2g) |
 
 
 *This code is highly borrowed from [DNA](https://github.com/YeRen123455/Infrared-Small-Target-Detection). Thanks to Boyang Li.
