@@ -46,7 +46,7 @@ our proposed negative sample augmentation strategies can be directly applied to 
 
 ## Dataset 
 
-Download the dataset download dir models {[[Baidu Drive]](https://pan.baidu.com/s/1WV1ytntgvxaBqetYIuBAYw ) (code:1234). Currently, the available dataset are:
+Download the dataset download dir models [[Baidu Drive]](https://pan.baidu.com/s/1WV1ytntgvxaBqetYIuBAYw ) (code:1234). Currently, the available dataset are:
 
 - `NUDT-SIRST`:An open-sourced dataset with rich targets.  
 - `3_NUDT-SIRST0.1`: finetune use our strategies (The bast visualization).
