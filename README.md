@@ -108,5 +108,5 @@ python visulization.py --base_size 256 --crop_size 256 --st_model [trained model
 
 
 ## Acknowledgement
-*This code is highly borrowed from [DNA](https://github.com/YeRen123455/Infrared-Small-Target-Detection). Thanks to Boyang Li.
+*This code is highly borrowed from [DNANet](https://github.com/YeRen123455/Infrared-Small-Target-Detection). Thanks to Boyang Li.
 
