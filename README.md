@@ -49,7 +49,6 @@ our proposed negative sample augmentation strategies can be directly applied to 
 Download the dataset download dir models [[Baidu Drive]](https://pan.baidu.com/s/1WV1ytntgvxaBqetYIuBAYw ) (code:1234). Currently, the available dataset are:
 
 - `NUDT-SIRST`:An open-sourced dataset with rich targets.  
-- `NUDT-SIRST0.1_3`: finetune use our strategies (The bast visualization).
 - `SIRST-5K`: The dataset synthesized using negatives generation strategies (Fig 2).
 
 ## Codes Demos
@@ -103,7 +102,6 @@ python visulization.py --base_size 256 --crop_size 256 --st_model [trained model
 | dataset    | mIoU (x10(-2)) | Pd (x10(-6))|  Fa (x10(-6)) |code:1234|
 | ------------- |:-------------:|:-----:|:-----:|:-----:|
 |  NUDT-SIRST | 86.87 | 97.98 | 3.71| [[Weights]](https://pan.baidu.com/s/1xeV4IPpmJCYzzwMmWrzeYQ) |
-| NUDT-SIRST0.1_3 | 92.78 | 98.84 | 2.74 |
 | SIRST-5k | 93.11 | 99.15 | 5.15 |[[Weights]](https://pan.baidu.com/s/1oJi5RGYf5cxkgvCHlWjYEQ?pwd=1234)|
 
 <img src="./datas/Quantative -results.jpg" width=100%>
