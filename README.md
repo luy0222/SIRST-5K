@@ -27,6 +27,7 @@ our proposed negative sample augmentation strategies can be directly applied to 
 ### Overview
 <img src="./datas/framework.jpg" width=100%>
 
+
 ### Visual
 
 <img src="./datas/Quantitative result1 .jpg" width=100%>
@@ -100,12 +101,13 @@ python visulization.py --base_size 256 --crop_size 256 --st_model [trained model
 
 ## Quantative Results 
 
-| dataset    | mIoU (x10(-2)) | Pd (x10(-2))|  Fa (x10(-6)) |code:1234|
+| dataset    | mIoU (x10(-2)) | Pd (x10(-6))|  Fa (x10(-6)) |code:1234|
 | ------------- |:-------------:|:-----:|:-----:|:-----:|
 |  NUDT-SIRST | 86.87 | 97.98 | 3.71| [[Weights]](https://pan.baidu.com/s/1xeV4IPpmJCYzzwMmWrzeYQ) |
 | NUDT-SIRST0.1_3 | 92.78 | 98.84 | 2.74 |
 | SIRST-5k | 93.11 | 99.15 | 5.15 |[[Weights]](https://pan.baidu.com/s/1oJi5RGYf5cxkgvCHlWjYEQ?pwd=1234)|
 
+<img src="./datas/Quantative -results.jpg" width=100%>
 
 ## Acknowledgement
 *This code is highly borrowed from [DNANet](https://github.com/YeRen123455/Infrared-Small-Target-Detection). Thanks to Boyang Li.
