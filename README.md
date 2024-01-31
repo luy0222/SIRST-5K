@@ -48,10 +48,9 @@ our proposed negative sample augmentation strategies can be directly applied to 
 
 Download the dataset download dir models {[[Baidu Drive]](https://pan.baidu.com/s/1WV1ytntgvxaBqetYIuBAYw ) (code:1234). Currently, the available dataset are:
 
-- `SIRST-5K`: The dataset synthesized using negatives generation strategies (Fig 2).
 - `NUDT-SIRST`:An open-sourced dataset with rich targets.  
 - `3_NUDT-SIRST0.1`: finetune use our strategies (The bast visualization).
-
+- `SIRST-5K`: The dataset synthesized using negatives generation strategies (Fig 2).
 
 ## Codes Demos
 
