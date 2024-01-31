@@ -11,9 +11,8 @@
 - [Dependencies and Installation](#dependencies-and-installation)
 - [Quick Inference](#quick-inference)
 - [Codes Demos](#codes-demos)
-- [Image Quality Assessment](#image-quality-assessment)
-- [Inference Dataset](#inference-dataset)
-- [Citation](#citation)
+- [Usage](#Usage)
+- [Quantative Results ](#QuantativeResults)
 - [Acknowledgement](#acknowledgement)
 
 
@@ -23,6 +22,7 @@
 We propose a method based on real-world noise modeling and transfer. By extracting the unique noise distribution of infrared sensors, our model adds different types of noise to the original data to generate new samples, ensuring theauthenticity and diversity of the synthesised data. Without requiring additional manual labeling, our model generates challenging massive samples through the use of negative sample augmentation strategies. Utilizing the Synthetic SIRST-5K dataset significantly improves the performance and convergence speed of infrared small target detection models. Furthermore,
 our proposed negative sample augmentation strategies can be directly applied to most existing infrared small target detectors, demonstrating strong versatility.
 
+<img src="./datas/SIRST-5k.jpg" width=80%>
 
 ### Overview
 <img src="./datas/framework.jpg" width=100%>
@@ -105,7 +105,7 @@ python visulization.py --base_size 256 --crop_size 256 --st_model [trained model
 | ------------- |:-------------:|:-----:|:-----:|:-----:|
 |  NUDT-SIRST | 86.87 | 97.98 | 3.71| [[Weights]](https://pan.baidu.com/s/1xeV4IPpmJCYzzwMmWrzeYQ) |
 | NUDT-SIRST0.1_3 | 92.78 | 98.84 | 2.74 |
-| SIRST-5k | 88.61 | 99.15 | 5.15 |[[Weights]](https://pan.baidu.com/s/1xeV4IPpmJCYzzwMmWrzeYQ) |
+| SIRST-5k | 93.11 | 99.15 | 5.15 |[[Weights]](https://pan.baidu.com/s/1oJi5RGYf5cxkgvCHlWjYEQ?pwd=1234)|
 
 
 ## Acknowledgement
