@@ -20,7 +20,7 @@ lines_list = []
 with open('Demos/input/NUDT-SIRST/50_50/train.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
 for line in lines:
-    lines_list.append(line.strip())  # 使用strip()方法去除每行末尾的换
+    lines_list.append(line.strip()) 
 
 
 def rot_patch_3(save_path,image_path, coordinate,k, index):
