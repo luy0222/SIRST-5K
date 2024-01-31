@@ -10,7 +10,7 @@ def parse_args():
     # parameter for DNANet
     parser.add_argument('--channel_size', type=str, default='three',
                         help='one,  two,  three,  four')
-    parser.add_argument('--backbone', type=str, default='resnet_18',
+    parser.add_argument('--backbone', type=str, default='resnet_34',
                         help='vgg10, resnet_10,  resnet_18,  resnet_34')
     parser.add_argument('--deep_supervision', type=str, default='True', help='True or False (model==DNANet)')
 
