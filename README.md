@@ -18,17 +18,11 @@
 
 
 ## Introduction
-
-We propose a method based on real-world noise modeling and transfer. By extracting the unique noise distribution of infrared sensors, our model adds different types of noise to the original data to generate new samples, ensuring theauthenticity and diversity of the synthesised data. Without requiring additional manual labeling, our model generates challenging massive samples through the use of negative sample augmentation strategies. Utilizing the Synthetic SIRST-5K dataset significantly improves the performance and convergence speed of infrared small target detection models. Furthermore,
-our proposed negative sample augmentation strategies can be directly applied to most existing infrared small target detectors, demonstrating strong versatility.
-<img src="./datas/5k.jpg" width=100%>
-
 ### Overview
 <img src="./datas/framework.jpg" width=100%>
 
 
 ### Visual
-
 <img src="./datas/Quantitative result1 .jpg" width=100%>
 
 
@@ -46,10 +40,9 @@ our proposed negative sample augmentation strategies can be directly applied to 
 
 ## Dataset 
 
-Download the dataset download dir models [[Baidu Drive]](https://pan.baidu.com/s/1WV1ytntgvxaBqetYIuBAYw ) (code:1234). Currently, the available dataset are:
-
-- `NUDT-SIRST`:An open-sourced dataset with rich targets.  
+Download the dataset download dir models[[Baidu Drive] (https://pan.baidu.com/s/1aUOs_mf2pGvx_sFOAJBghQ?pwd=1234)] (code:1234). Currently, the available dataset are:
 - `SIRST-5K`: The dataset synthesized using negatives generation strategies (Fig 2).
+
 
 ## Codes Demos
 
@@ -100,9 +93,10 @@ python visulization.py --base_size 256 --crop_size 256 --st_model [trained model
 ## Quantative Results 
 
 | Dataset    | mIoU (x10(-2)) | Pd (x10(-6))|  Fa (x10(-6)) |code:1234|
-| ------------- |:-------------:|:-----:|:-----:|:-----:|
+| ------------- |:-------------:|:-----:|:-----:|:-----:| 
+|  SIRST-5K | 93.10|99.15  |5.15 ||
 |  NUDT-SIRST | 86.87 | 97.98 | 3.71| [[Weights]](https://pan.baidu.com/s/1xeV4IPpmJCYzzwMmWrzeYQ) |
-| SIRST-5k | 93.11 | 99.15 | 5.15 |[[Weights]](https://pan.baidu.com/s/1oJi5RGYf5cxkgvCHlWjYEQ?pwd=1234)|
+|  NUDT-SIRST model | 92.78|98.84  |2.735 ||
 
 <img src="./datas/Quantative -results.jpg" width=100%>
 
