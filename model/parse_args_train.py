@@ -21,8 +21,7 @@ def parse_args():
     parser.add_argument('--test_size', type=float, default='0.5', help='when mode==Ratio')
     parser.add_argument('--root', type=str, default='dataset/')
     parser.add_argument('--suffix', type=str, default='.png')
-    parser.add_argument('--split_method', type=str, default='50_50',
-                        help='50_50, 10000_100(for NUST-SIRST)')
+    parser.add_argument('--split_method', type=str, default='50_50')
     parser.add_argument('--workers', type=int, default=4,
                         metavar='N', help='dataloader threads')
     parser.add_argument('--in_channels', type=int, default=3,
