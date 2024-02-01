@@ -2,7 +2,7 @@ from model.utils import *
 
 def parse_args():
     """Training Options for Segmentation Experiments"""
-    parser = argparse.ArgumentParser(description='Dense_Nested_Attention_Network_For_SIRST')
+    parser = argparse.ArgumentParser(description='SIRST-5k')
     # choose model
     parser.add_argument('--model', type=str, default='Net',
                         help='model name: Net')
