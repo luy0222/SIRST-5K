@@ -63,7 +63,7 @@ python codes/Noise_Sampling/Noise_Sampling.py
 python codes/Mix_Rot/add_noise.py
 ```
 
-**Negative augmentation**
+**Negative **
 
 ```bash
 # Run rot_patch.py directly
@@ -74,7 +74,7 @@ python codes/Mix_Rot/rot_patch.py
 python codes/Mix_Rot/rot_mask.py
 ```
 
-Our negative sample enhancement strategy can produce large amounts of challenging picture data that you can train with direct use of [[SIRST-5K](https://pan.baidu.com/s/1EG-loK86aWJL7M6bPQjivA?pwd=1234)].
+Our negative augmentation strategies can produce large amounts of challenging picture data. you can train with [[SIRST-5K](https://pan.baidu.com/s/1EG-loK86aWJL7M6bPQjivA?pwd=1234)]directly.
 
 ## Usage
 
