@@ -18,13 +18,11 @@ def parse_args():
     # data and pre-process
     parser.add_argument('--dataset', type=str, default='SIRST-5k',
                         help='dataset name: NUDT-SIRST, NUAA-SIRST, NUST-SIRST')
-    parser.add_argument('--st_model', type=str, default='NUDT-SIRST_Net_31_07_2021_14_50_57_wDS',
-                        help='NUDT-SIRST_Net_31_07_2021_14_50_57_wDS,'
-                             'NUAA-SIRST_Net_28_07_2021_05_21_33_wDS')
+    parser.add_argument('--st_model', type=str, default='SIRST-5k_Net_31_07_2021_14_50_57_wDS',
+                        help='SIRST-5k_Net_31_07_2021_14_50_57_wDS)
     parser.add_argument('--model_dir', type=str,
-                        default = 'NUDT-SIRST_Net_31_07_2021_14_50_57_wDS/mIoU__Net_NUDT-SIRST_epoch.pth.tar',
-                        help    = 'NUDT-SIRST_Net_31_07_2021_14_50_57_wDS/mIoU__Net_NUDT-SIRST_epoch.pth.tar,'
-                                  'NUAA-SIRST_Net_28_07_2021_05_21_33_wDS/mIoU__Net_NUAA-SIRST_epoch.pth.tar')
+                        default = 'SIRST-5k_Net_31_07_2021_14_50_57_wDS/mIoU__Net_SIRST-5k_epoch.pth.tar',
+                        help    = 'SIRST-5k_Net_31_07_2021_14_50_57_wDS/mIoU__Net_SIRST-5k_epoch.pth.tar')
     parser.add_argument('--mode', type=str, default='TXT', help='mode name:  TXT, Ratio')
     parser.add_argument('--test_size', type=float, default='0.5', help='when --mode==Ratio')
     parser.add_argument('--root', type=str, default='dataset/')
