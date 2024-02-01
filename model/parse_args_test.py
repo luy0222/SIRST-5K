@@ -17,7 +17,7 @@ def parse_args():
 
     # data and pre-process
     parser.add_argument('--dataset', type=str, default='SIRST-5k',
-                        help='dataset name: NUDT-SIRST, NUAA-SIRST, NUST-SIRST')
+                        help='dataset name: SIRST-5k, NUDT-SIRST')
     parser.add_argument('--st_model', type=str, default='SIRST-5k_Net_31_07_2021_14_50_57_wDS',
                         help='SIRST-5k_Net_31_07_2021_14_50_57_wDS)
     parser.add_argument('--model_dir', type=str,
