@@ -85,7 +85,7 @@ python train.py --base_size 256 --crop_size 256 --epochs 1500 --dataset [dataset
 #### 2. Test.
 
 ```bash
-python test.py --base_size 256 --crop_size 256 --st_model [trained model path] --model_dir [model_dir] --dataset [dataset-name] --split_method 50_50 --model [model name]   --deep_supervision True --test_batch_size 1 --mode TXT 
+python test.py --base_size 256 --crop_size 256 --st_model [trained model path] --model_dir [model_dir] --dataset [dataset-name] --split_method 50_50    --deep_supervision True --test_batch_size 1 --mode TXT 
 ```
 
 #### 3. Visulize your predicts.
