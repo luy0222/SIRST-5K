@@ -15,7 +15,7 @@ def parse_args():
 
 
     # data and pre-process
-    parser.add_argument('--dataset', type=str, default='NUDT-SIRST',
+    parser.add_argument('--dataset', type=str, default='SIRST-5k',
                         help='dataset name:  NUDT-SIRST, NUAA-SIRST, NUST-SIRST')
     parser.add_argument('--mode', type=str, default='TXT', help='mode name:  TXT, Ratio')
     parser.add_argument('--test_size', type=float, default='0.5', help='when mode==Ratio')
