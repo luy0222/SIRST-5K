@@ -74,6 +74,8 @@ python codes/Mix_Rot/rot_patch.py
 python codes/Mix_Rot/rot_mask.py
 ```
 
+Our negative sample enhancement strategy can produce large amounts of challenging picture data that you can train with direct use of [[SIRST-5K](https://pan.baidu.com/s/1EG-loK86aWJL7M6bPQjivA?pwd=1234)].
+
 ## Usage
 
 #### 1. Train.
