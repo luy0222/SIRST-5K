@@ -63,7 +63,7 @@ python codes/Noise_Sampling/Noise_Sampling.py
 python codes/Mix_Rot/add_noise.py
 ```
 
-**Negative **
+**Negative**
 
 ```bash
 # Run rot_patch.py directly
