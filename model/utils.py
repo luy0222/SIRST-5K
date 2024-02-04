@@ -68,11 +68,11 @@ class TrainSetLoader(Dataset):
 
     def __getitem__(self, idx):
 
-        img_id     = self._items[idx]                        # idx：('../SIRST', 'Misc_70') 成对出现，因为我的workers设置为了2
-        img_path   = self.images+'/'+img_id+self.suffix   # img_id的数值正好补了self._image_path在上面定义的2个空
+        img_id     = self._items[idx]                        
+        img_path   = self.images+'/'+img_id+self.suffix  
         label_path = self.masks +'/'+img_id+self.suffix
 
-        img = Image.open(img_path).convert('RGB')         ##由于输入的三通道、单通道图像都有，所以统一转成RGB的三通道，这也符合Unet等网络的期待尺寸
+        img = Image.open(img_path).convert('RGB')        
         mask = Image.open(label_path)
 
         # synchronized transform
@@ -115,10 +115,10 @@ class TestSetLoader(Dataset):
 
     def __getitem__(self, idx):
         # print('idx:',idx)
-        img_id = self._items[idx]  # idx：('../SIRST', 'Misc_70') 成对出现，因为我的workers设置为了2
-        img_path   = self.images+'/'+img_id+self.suffix    # img_id的数值正好补了self._image_path在上面定义的2个空
+        img_id = self._items[idx]  
+        img_path   = self.images+'/'+img_id+self.suffix    
         label_path = self.masks +'/'+img_id+self.suffix
-        img  = Image.open(img_path).convert('RGB')  ##由于输入的三通道、单通道图像都有，所以统一转成RGB的三通道，这也符合Unet等网络的期待尺寸
+        img  = Image.open(img_path).convert('RGB')  
         mask = Image.open(label_path)
         # synchronized transform
         img, mask = self._testval_sync_transform(img, mask)
@@ -336,11 +336,11 @@ def total_visulization_generation(dataset_dir, mode, test_txt, suffix, target_im
 
 def make_visulization_dir(target_image_path, target_dir):
     if os.path.exists(target_image_path):
-        shutil.rmtree(target_image_path)  # 删除目录，包括目录下的所有文件
+        shutil.rmtree(target_image_path) 
     os.mkdir(target_image_path)
 
     if os.path.exists(target_dir):
-        shutil.rmtree(target_dir)  # 删除目录，包括目录下的所有文件
+        shutil.rmtree(target_dir)  
     os.mkdir(target_dir)
 
 def save_Pred_GT(pred, labels, target_image_path, val_img_ids, num, suffix):
