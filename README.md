@@ -28,7 +28,7 @@
 ### Visual
 <img src="./datas/Quantitative result1 .jpg" width=100%>
 
-
+<img src="./datas/Quantative -results.jpg" width=100%>
 ## Dependencies and Installation
 - Following [DNANet](https://github.com/YeRen123455/Infrared-Small-Target-Detection)
 - Python == 3.7
