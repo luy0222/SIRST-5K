@@ -26,9 +26,9 @@
 
 
 ### Visual
-<img src="./datas/Quantitative result1 .jpg" width=100%>
+<img src="./datas/Quantitative-result1 .jpg" width=100%>
 
-<img src="./datas/Quantative -results.jpg" width=100%>
+
 ## Dependencies and Installation
 - Following [DNANet](https://github.com/YeRen123455/Infrared-Small-Target-Detection)
 - Python == 3.7
@@ -101,7 +101,7 @@ python visulization.py --base_size 256 --crop_size 256 --st_model [trained model
 | ------------- |:-------------:|:-----:|:-----:|:-----:| 
 |  Ours | 92.78|98.84  |2.735 |[[Weights]](https://pan.baidu.com/s/1jFea0odNT6TULMcm5cvooQ?pwd=1234 )|
 
-
+<img src="./datas/Quantative-results.jpg" width=100%>
 
 
 
