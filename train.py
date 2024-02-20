@@ -13,7 +13,7 @@ from model.loss import *
 from model.load_param_data import  load_dataset, load_param
 
 # model
-from model.model import  Res_CBAM_block
+from model.model import  Res_block
 from model.model import  Net
 
 #tensorboard
@@ -50,13 +50,12 @@ class Trainer(object):
 
         # Choose and load model (this paper is finished by one GPU)
         if args.model   == 'Net':
-            model       = Net(num_classes=1,input_channels=args.in_channels, block=Res_CBAM_block, num_blocks=num_blocks, nb_filter=nb_filter, deep_supervision=args.deep_supervision)
+            model       = Net(num_classes=1,input_channels=args.in_channels, block=Res_block, num_blocks=num_blocks, nb_filter=nb_filter, deep_supervision=args.deep_supervision)
 
         model           = model.cuda(device=None)
         model.apply(weights_init_xavier)
         print("Model Initializing")
 
-        # 使用DataParallel包装模型
         if torch.cuda.device_count() > 1:
             print("Let's use", torch.cuda.device_count(), "GPUs!")
             model = torch.nn.DataParallel(model)
