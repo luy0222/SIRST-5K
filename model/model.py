@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 
 
-class VGG_CBAM_Block(nn.Module):
+class VGG_Block(nn.Module):
     def __init__(self, in_channels, out_channels):
         super().__init__()
         self.conv1 = nn.Conv2d(in_channels, out_channels, 3, padding=1)
@@ -54,9 +54,9 @@ class SpatialAttention(nn.Module):
         x = self.conv1(x)
         return self.sigmoid(x)
 
-class Res_CBAM_block(nn.Module):
+class Res_block(nn.Module):
     def __init__(self, in_channels, out_channels, stride = 1):
-        super(Res_CBAM_block, self).__init__()
+        super(Res_block, self).__init__()
         self.conv1 = nn.Conv2d(in_channels, out_channels, kernel_size = 3, stride = stride, padding = 1)
         self.bn1 = nn.BatchNorm2d(out_channels)
         self.relu = nn.ReLU(inplace = True)
