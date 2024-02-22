@@ -71,8 +71,8 @@ class Trainer(object):
                     pred = self.model(data)
                 save_Pred_GT(pred, labels,visulization_path, val_img_ids, num, args.suffix)
                 num += 1
-
-
+            total_visulization_generation(dataset_dir, args.mode, test_txt, args.suffix, visulization_path, visulization_fuse_path)
+   
 
 
 
