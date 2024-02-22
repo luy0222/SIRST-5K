@@ -349,11 +349,11 @@ def save_Pred_GT(pred, labels, target_image_path, val_img_ids, num, suffix):
     predsss = np.uint8(predsss)
     labelsss = labels * 255
     labelsss = np.uint8(labelsss.cpu())
-
+    
     img = Image.fromarray(predsss.reshape(256, 256))
-    img.save(target_image_path + '/' +  val_img_ids[num] +suffix)
-    # img = Image.fromarray(labelsss.reshape(256, 256))
-    # img.save(target_image_path + '/' + '%s_GT' % (val_img_ids[num]) + suffix)
+    img.save(target_image_path + '/' + '%s_Pred' % (val_img_ids[num]) + suffix)
+    img = Image.fromarray(labelsss.reshape(256, 256))
+    img.save(target_image_path + '/' + '%s_GT' % (val_img_ids[num]) + suffix)
 
 
 def save_Pred_GT_visulize(pred, img_demo_dir, img_demo_index, suffix):
