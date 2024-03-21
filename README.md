@@ -19,7 +19,7 @@
 
 ## Introduction
 <img src="./datas/5k.jpg" width=100%>
-<img src="./datas/self-supervised.jpg" width=100%>
+<img src="./datas/self-supervised1.jpg" width=100%>
 
 ### Overview
 <img src="./datas/framework.jpg" width=100%>
