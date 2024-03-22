@@ -1,8 +1,10 @@
 # SIRST-5K
 
-### SIRST-5K: Exploring Massive Negatives Synthesis with Self-supervised Learning for Robust Infrared Small Target Detection
+## About
 
+Codes for ***SIRST-5K: Exploring Massive Negatives Synthesis with Self-supervised Learning for Robust Infrared Small Target Detection***
 
+*-[[ArXiv]](https://arxiv.org/abs/2403.05416)*
 
 ## Contents
 - [Introduction](#introduction)
