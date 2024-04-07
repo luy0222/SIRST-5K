@@ -36,7 +36,7 @@ Codes for ***SIRST-5K: Exploring Massive Negatives Synthesis with Self-supervise
 
 ## Dependencies and Installation
 - Following [DNANet](https://github.com/YeRen123455/Infrared-Small-Target-Detection)
-- Python == 3.7
+- Python == 3.8
 - pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 - pip install scikit-image
 - pip install tqdm
