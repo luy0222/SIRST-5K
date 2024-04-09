@@ -8,6 +8,7 @@ Codes for ***SIRST-5K: Exploring Massive Negatives Synthesis with Self-supervise
 
 ## Contents
 - [Introduction](#introduction)
+  - [curve](#curve)
   - [Overview](#overview)
   - [Visual](#visual)
 - [Dependencies and Installation](#dependencies-and-installation)
@@ -22,7 +23,7 @@ Codes for ***SIRST-5K: Exploring Massive Negatives Synthesis with Self-supervise
 ## Introduction
 <img src="./datas/self-supervised .jpg" width=100%>
 
-### Convergence curve
+### curve
 <img src="./datas/5k.jpg" width=100%>
 
 ### Overview
