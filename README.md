@@ -79,7 +79,7 @@ python codes/Mix_Rot/rot_patch.py
 python codes/Mix_Rot/rot_mask.py
 ```
 
-Our negative augmentation strategies can produce large amounts of challenging image data. You can download the [SIRST-5K](https://pan.baidu.com/s/1EG-loK86aWJL7M6bPQjivA?pwd=1234) directly for training.
+Our negative augmentation strategies can produce large amounts of challenging image data. You can download the [SIRST-5K](https://drive.google.com/file/d/13aIrY5azO4bPwSGzDCzmgpwtpmYsysaD/view?usp=sharing) directly for training.
 
 ## Usage
 
@@ -104,7 +104,7 @@ python visulization.py --base_size 256 --crop_size 256 --st_model [trained model
 
 | Model    | mIoU (x10(2)) | Pd (x10(6))|  Fa (x10(6)) ||
 | ------------- |:-------------:|:-----:|:-----:|:-----:| 
-|  Ours | 92.78|98.84  |2.735 |[[Weights]](https://pan.baidu.com/s/1jFea0odNT6TULMcm5cvooQ?pwd=1234 )|
+|  Ours | 92.78|98.84  |2.735 |[[Weights]](https://drive.google.com/file/d/1pTmKST5E662KKfAlCUolheTLjN-PKWm1/view?usp=drive_link)|
 
 <img src="./datas/Quantative-results.jpg" width=100%>
 
