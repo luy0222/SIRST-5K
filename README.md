@@ -15,8 +15,8 @@
 - [Codes Demos](#codes-demos)
 - [Usage](#usage)
 - [Quantative Results ](#quantative-results)
-- [Citations ](Citation)
-- [Acknowledgement ](Acknowledgement)
+- [Citations ](#citation)
+- [Acknowledgement ](#acknowledgement)
 
 
 
