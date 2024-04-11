@@ -1,10 +1,9 @@
-# SIRST-5K
+# SIRST-5K (TGRS 2024)
 
-## About
 
-Codes for ***SIRST-5K: Exploring Massive Negatives Synthesis with Self-supervised Learning for Robust Infrared Small Target Detection***
 
-*-[[ArXiv]](https://arxiv.org/abs/2403.05416)*
+***SIRST-5K: Exploring Massive Negatives Synthesis with Self-supervised Learning for Robust Infrared Small Target Detection***
+> [![arXiv](https://img.shields.io/badge/arXiv-Paper-blue.svg)](https://arxiv.org/abs/2403.05416)<br>
 
 ## Contents
 - [Introduction](#introduction)
@@ -16,6 +15,8 @@ Codes for ***SIRST-5K: Exploring Massive Negatives Synthesis with Self-supervise
 - [Codes Demos](#codes-demos)
 - [Usage](#usage)
 - [Quantative Results ](#quantative-results)
+- [Citations ](Citation)
+- [Acknowledgement ](Acknowledgement)
 
 
 
@@ -109,5 +110,20 @@ python visulization.py --base_size 256 --crop_size 256 --st_model [trained model
 
 <img src="./datas/Quantative-results.jpg" width=100%>
 
-
+## Citation
+If you find this project useful for your research, please consider citing our paper. :smiley:
+```bibtex
+@ARTICLE{10496142,
+  author={Lu, Yahao and Lin, Yupei and Wu, Han and Xian, Xiaoyu and Shi, Yukai and Lin, Liang},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={SIRST-5K: Exploring Massive Negatives Synthesis with Self-supervised Learning for Robust Infrared Small Target Detection}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Object detection;Self-supervised learning;Noise;Feature extraction;Data models;Task analysis;Data augmentation;Infrared small target detection;self-supervised learning;noise displacement;negative sample augmentation},
+  doi={10.1109/TGRS.2024.3387125}}
+```
+## Acknowledgement
+This project is build based on [DNANet](https://github.com/YeRen123455/Infrared-Small-Target-Detection). We thank the authors for sharing their code.
 
