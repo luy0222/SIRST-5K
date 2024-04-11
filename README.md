@@ -118,11 +118,9 @@ If you find this project useful for your research, please consider citing our pa
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={SIRST-5K: Exploring Massive Negatives Synthesis with Self-supervised Learning for Robust Infrared Small Target Detection}, 
   year={2024},
-  volume={},
-  number={},
-  pages={1-1},
-  keywords={Object detection;Self-supervised learning;Noise;Feature extraction;Data models;Task analysis;Data augmentation;Infrared small target detection;self-supervised learning;noise displacement;negative sample augmentation},
-  doi={10.1109/TGRS.2024.3387125}}
+  publisher={IEEE}
+  doi={10.1109/TGRS.2024.3387125}
+}
 ```
 ## Acknowledgement
 This project is build based on [DNANet](https://github.com/YeRen123455/Infrared-Small-Target-Detection). We thank the authors for sharing their code.
