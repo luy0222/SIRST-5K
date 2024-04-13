@@ -104,7 +104,7 @@ python visulization.py --base_size 256 --crop_size 256 --st_model [trained model
 
 ## Quantative Results 
 
-| Model    | mIoU (x10(2)) | Pd (x10(6))|  Fa (x10(6)) ||
+| Model    | mIoU (x10(2)) | Pd (x10(2))|  Fa (x10(6)) ||
 | ------------- |:-------------:|:-----:|:-----:|:-----:| 
 |  Ours | 92.78|98.84  |2.735 |[[Weights]](https://drive.google.com/file/d/1pTmKST5E662KKfAlCUolheTLjN-PKWm1/view?usp=drive_link)|
 
