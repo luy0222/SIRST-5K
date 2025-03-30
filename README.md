@@ -50,7 +50,7 @@
 
 ## Dataset 
 
-Download the dataset download dir models[[Baidu Drive](https://pan.baidu.com/s/1EG-loK86aWJL7M6bPQjivA?pwd=1234)][[Google Drive](https://drive.google.com/file/d/13aIrY5azO4bPwSGzDCzmgpwtpmYsysaD/view?usp=sharing)]. Currently, the available dataset are:
+Download the dataset download dir models[[Baidu Drive](https://pan.baidu.com/s/1EG-loK86aWJL7M6bPQjivA?pwd=1234)]. Currently, the available dataset are:
 - `SIRST-5K`: The dataset synthesized using negatives generation strategies (Fig 2).
 
 
