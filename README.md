@@ -11,7 +11,6 @@
   - [Overview](#overview)
   - [Visual](#visual)
 - [Dependencies and Installation](#dependencies-and-installation)
-- [Dataset](#dataset )
 - [Codes Demos](#codes-demos)
 - [Usage](#usage)
 - [Quantative Results ](#quantative-results)
@@ -48,13 +47,10 @@
 
 
 
-## Dataset 
-
-Download the dataset download dir models[[Baidu Drive](https://pan.baidu.com/s/1EG-loK86aWJL7M6bPQjivA?pwd=1234)]. Currently, the available dataset are:
-- `SIRST-5K`: The dataset synthesized using negatives generation strategies (Fig 2).
 
 
-## Codes Demos
+
+## Offline Data Augmentation
 
 **Noise Sampling**
 
