@@ -77,8 +77,6 @@ python codes/Mix_Rot/rot_patch.py
 python codes/Mix_Rot/rot_mask.py
 ```
 
-Our negative augmentation strategies can produce large amounts of challenging image data. You can download the [SIRST-5K](https://drive.google.com/file/d/13aIrY5azO4bPwSGzDCzmgpwtpmYsysaD/view?usp=sharing) directly for training.
-
 ## Usage
 
 #### 1. Train.
