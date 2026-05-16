@@ -8,6 +8,7 @@
   - [Overview](#overview)
   - [Visual](#visual)
 - [Dependencies](#dependencies)
+- [Offline Code](#offline-code)
 - [Quantative Results ](#quantative-results)
 - [Citations ](#citation)
 - [Acknowledgement ](#acknowledgement)
