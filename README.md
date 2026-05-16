@@ -1,5 +1,3 @@
-# SIRST-5K (TGRS 2024)
-
 
 
 ***SIRST-5K: Exploring Massive Negatives Synthesis with Self-supervised Learning for Robust Infrared Small Target Detection***
@@ -7,12 +5,9 @@
 
 ## Contents
 - [Introduction](#introduction)
-  - [curve](#curve)
   - [Overview](#overview)
   - [Visual](#visual)
-- [Dependencies and Installation](#dependencies-and-installation)
-- [Codes Demos](#codes-demos)
-- [Usage](#usage)
+- [Dependencies](#dependencies)
 - [Quantative Results ](#quantative-results)
 - [Citations ](#citation)
 - [Acknowledgement ](#acknowledgement)
@@ -21,36 +16,18 @@
 
 
 ## Introduction
-<img src="./datas/self-supervised .jpg" width=70%>
-
-### curve
-<img src="./datas/5k.jpg" width=100%>
-
 ### Overview
 <img src="./datas/framework.jpg" width=100%>
-
-
 
 ### Visual
 <img src="./datas/Quantitative-result1 .jpg" width=100%>
 
 
-## Dependencies and Installation
+## Dependencies
 - Following [DNANet](https://github.com/YeRen123455/Infrared-Small-Target-Detection)
-- Python == 3.8
-- pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-- pip install scikit-image
-- pip install tqdm
-- pip install matplotlib
-- pip install tensorboard==2.14.0
-- pip install opencv-python==4.8.0.76
 
 
-
-
-
-
-## Offline Data Augmentation
+## Offline Code
 
 **Noise Sampling**
 
@@ -77,32 +54,13 @@ python codes/Mix_Rot/rot_patch.py
 python codes/Mix_Rot/rot_mask.py
 ```
 
-## Usage
-
-#### 1. Train.
-
-```bash
-python train.py --base_size 256 --crop_size 256 --epochs 1500 --dataset [dataset-name] --split_method 50_50  --deep_supervision True --train_batch_size 16 --test_batch_size 16 --mode TXT
-
-```
-#### 2. Test.
-
-```bash
-python test.py --base_size 256 --crop_size 256 --st_model [trained model path] --model_dir [model_dir] --dataset [dataset-name] --split_method 50_50    --deep_supervision True --test_batch_size 1 --mode TXT 
-```
-
-#### 3. Visulize your predicts.
-```bash
-python visulization.py --base_size 256 --crop_size 256 --st_model [trained model path] --model_dir [model_dir] --dataset [dataset-name] --split_method 50_50    --deep_supervision True --test_batch_size 1 --mode TXT 
-```
 
 ## Quantative Results 
 
 | Model    | mIoU (x10(2)) | Pd (x10(2))|  Fa (x10(6)) ||
 | ------------- |:-------------:|:-----:|:-----:|:-----:| 
-|  Ours | 92.78|98.84  |2.735 |[[Weights]](https://drive.google.com/file/d/1pTmKST5E662KKfAlCUolheTLjN-PKWm1/view?usp=drive_link)|
+|  Ours | 92.78| 98.84  |2.735 |[[Weights]](https://drive.google.com/file/d/1pTmKST5E662KKfAlCUolheTLjN-PKWm1/view?usp=drive_link)|
 
-<img src="./datas/Quantative-results.jpg" width=100%>
 
 ## Citation
 If you find this project useful for your research, please consider citing our paper. :smiley:
